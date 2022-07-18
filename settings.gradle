@@ -6,7 +6,7 @@ dependencyResolutionManagement {
         maven { url 'https://jitpack.io' }
     }
 }
-rootProject.name = "empty"
+rootProject.name = "ctc"
 
 Properties properties = new Properties()
 File localConfig = new File(settingsDir, 'local.properties')
@@ -18,3 +18,5 @@ if (localConfig.exists()) {
         project(':Application').projectDir = new File(appShell)
     }
 }
+
+include ':ctc-compose'
