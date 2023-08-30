@@ -1,3 +1,4 @@
+@file:Suppress("NonAsciiCharacters", "unused")
 package com.github.kkoshin.ctc.compose
 
 import androidx.compose.ui.graphics.Color
